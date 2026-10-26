@@ -36,6 +36,8 @@ _full*.png
 _panel.png
 _tray.png
 
-# Do not ignore the documentation images
+# 托盘截图包含桌面其他应用图标，不纳入仓库
+docs/tray.png
+
+# Documentation images that should be tracked
 !docs/panel.png
-!docs/tray.png
