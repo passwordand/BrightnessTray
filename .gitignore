@@ -1,0 +1,41 @@
+# .NET build output
+[Bb]in/
+[Oo]bj/
+out/
+artifacts/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+
+# Build logs
+*.log
+*.binlog
+msbuild*.txt
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+
+# Local diagnostics and screenshots
+selftest.txt
+trace.log
+error.log
+_full*.png
+_panel.png
+_tray.png
+
+# Do not ignore the documentation images
+!docs/panel.png
+!docs/tray.png

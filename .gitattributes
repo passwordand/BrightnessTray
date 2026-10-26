@@ -1,0 +1,16 @@
+* text=auto
+
+# Windows batch files must keep CRLF line endings
+*.cmd text eol=crlf
+
+# Keep source files with consistent LF
+*.cs text eol=lf
+*.csproj text eol=lf
+*.manifest text eol=lf
+*.md text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
+
+# Binary assets
+*.png binary
+*.ico binary
